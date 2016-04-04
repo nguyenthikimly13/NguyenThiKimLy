@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:30px;
+	min-height:1000px;
+}
+div, h1{
+	margin:10px;
+	float:left;
+	width:100%;
+}
+#H-nav ul li{
+	float:left;
+	background:blue;
+	list-style-type:none;
+	display:inline-block;
+	border-right:1px solid #aaa;
+	height:40px;
+	width:150px;
+	text-transform: uppercase;
+}
+#H-nav ul li a{
+	color: #fff;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    padding-top: 5px;
+	display: block;
+    line-height: 28px;
+}
+#H-nav ul li a:hover{
+	background:red;
+	color:yellow;
+}
+#H-nav ul li:first-child{
+	border-radius:5px 0 0px 5px;
+}
+#H-nav ul li:last-child{
+	border-radius:0 5px 5px 0;
+	border-right:none;
+}
+/* end H-nav */
+#V-nav ul li{
+	background:blue;
+	list-style-type:none;
+	height:40px;
+	width:150px;
+	text-transform: uppercase;
+}
+#V-nav ul li a{
+	color: #fff;
+    text-align:left;
+	padding-left:10px;
+    text-decoration: none;
+    height: 35px;
+    padding-top: 5px;
+	display: block;
+    line-height: 28px;
+}
+#V-nav ul li a:hover{
+	background:red;
+	color:yellow;
+}
+#V-nav ul li:first-child{
+	border-radius:5px 5px 0px 0;
+}
+#V-nav ul li:last-child{
+	border-radius:0 0 5px 5px;
+	border-right:none;
+}
+ /* end V-nav */
+#D-nav ul li{
+	float:left;
+	background:blue;
+	list-style-type:none;
+	display:inline-block;
+	border-right:1px solid #aaa;
+	height:40px;
+	width:150px;
+	position:relative;
+	text-transform: uppercase;
+}
+#D-nav ul li a{
+	color: #fff;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    padding-top: 5px;
+	display: block;
+    line-height: 28px;
+}
+#D-nav ul li a:hover{
+	background:red;
+	color:yellow;
+}
+#D-nav ul li:first-child{
+	border-radius:5px 0 0 5px;
+}
+#D-nav ul li:last-child{
+	border-radius:0 5px 5px 0;
+	border-right:none;
+}
+.nav-con{
+	position:absolute;
+	display:none;
+}
+#D-nav li:hover .nav-con{
+	display:block;
+}
+ /* end D-nav */
+#F-nav ul li{
+	background:blue;
+	list-style-type:none;
+	border-right:1px solid #aaa;
+	height:40px;
+	width:150px;
+	position:relative;
+	text-transform: uppercase;
+}
+#F-nav ul li a{
+	color: #fff;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    padding-top: 5px;
+	display: block;
+    line-height: 28px;
+}
+#F-nav ul li a:hover{
+	background:red;
+	color:yellow;
+}
+.F-con{
+	position:absolute;
+	display:none;
+	left:150px;
+	top:0;
+}
+#F-nav li:hover .F-con{
+	display:block;
+}
